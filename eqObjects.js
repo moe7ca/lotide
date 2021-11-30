@@ -18,13 +18,6 @@ const eqArrays = function(arr1, arr2) {
   return true;
 };
 
-// Returns true if both objects have identical keys with identical values.
-// Otherwise you get back a big fat false!
-
-// loop through obj1
-// loop through obj2
-
-
 const eqObjects = function(object1, object2) {
   let keyObj1 = Object.keys(object1);
   // console.log("What is this:" + keyObj1);
